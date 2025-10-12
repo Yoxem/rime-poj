@@ -1,0 +1,107 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Input method in Taigi (Taiwanese Hokkien) POJ
+#
+# http://en.wikipedia.org/wiki/Pe̍h-ōe-jī
+#
+# Table author:
+#  - Patrick <ipatrickmac@qq.com> (orig X-SAMPA table)
+#  - GONG Chen <chen.sst@gmail.com> (orig X-SAMPA table)
+#  - Tan Kian-ting <chenjt30@gmail.com>
+#
+
+---
+name: poj
+version: "0.1"
+sort: original
+...
+
+#Lower case symbols
+á	a2
+à	a3
+â	a5
+ã	a6
+ā	a7
+a̍	a8
+ă	a9
+é	e2
+è	e3
+ê	e5
+ẽ	e6
+ē	e7
+e̍	e8
+ĕ	e9
+í	i2
+ì	i3
+î	i5
+ĩ	i6
+ī	i7
+i̍	i8
+ĭ	i9
+ó	o2
+ò	o3
+ô	o5
+õ	o6
+ō	o7
+o̍	o8
+ŏ	o9
+o͘	ou
+ó͘	ou2
+ò͘	ou3
+ô͘	ou5
+õ͘	ou6
+ō͘	ou7
+ŏ͘	ou9
+ú	u2
+ù	u3
+û	u5
+ũ	u6
+ū	u7
+u̍	u8
+ŭ	u9
+ⁿ	nn
+#Uppercase symbols
+Á	A2
+À	A3
+Â	A5
+Ã	A6
+Ā	A7
+A̍	A8
+Ă	A9
+É	E2
+È	E3
+Ê	E5
+Ẽ	E6
+Ē	E7
+E̍	E8
+Ĕ	E9
+Í	I2
+Ì	I3
+Î	I5
+Ĩ	I6
+Ī	I7
+I̍	I8
+Ĭ	I9
+Ó	O2
+Ò	O3
+Ô	O5
+Õ	O6
+Ō	O7
+O̍	O8
+Ŏ	O9
+O͘	OU
+Ó͘	OU2
+Ò͘	OU3
+Ô͘	OU5
+Õ͘	OU6
+Ō͘	OU7
+Ŏ͘	OU9
+Ú	U2
+Ù	U3
+Û	U5
+Ũ	U6
+Ū	U7
+U̍	U8
+Ŭ	U9
+ᴺ	NN

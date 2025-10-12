@@ -1,0 +1,42 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: poj
+  name: POJ
+  version: '0.1'
+  author:
+    - Patrick <ipatrickmac@qq.com>
+    - GONG Chen <chen.sst@gmail.com>
+    - Tan Kian-ting <chenjt30@gmail.com>
+  description: |
+    Input method in Taigi (Taiwanese Hokkien) POJ
+    http://en.wikipedia.org/wiki/Pe̍h-ōe-jī
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba_<>\`~."%'':@{}1234567890&?!^|=-+/'
+  delimiter: ' '
+  auto_select: true
+
+translator:
+  dictionary: ipa_xsampa
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/^~//
+
+key_binder:
+  import_preset: default
