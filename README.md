@@ -1,6 +1,6 @@
 # rime-poj
 
-[Rime](https://rime.im) 臺語 (Hô-ló-ōe) 白話字 ( https://en.wikipedia.org/wiki/Pe̍h-ōe-jī ) 輸入方案
+[Rime](https://rime.im) 臺語 (Hô-ló-ōe) 白話字 ( https://en.wikipedia.org/wiki/Pe̍h-ōe-jī ; POJ ) 輸入方案
 
 授權條款：見 [LICENSE](LICENSE)
 
