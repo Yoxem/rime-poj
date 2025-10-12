@@ -32,7 +32,7 @@ speller:
   auto_select: true
 
 translator:
-  dictionary: ipa_xsampa
+  dictionary: poj
   enable_sentence: false
   enable_user_dict: false
   comment_format:
