@@ -8,7 +8,7 @@
 
 與其他依託Rime的輸入法一樣，國際音標是一組獨立發行的「輸入方案」數據包（或稱「配方」）。
 
-安裝適合您的設備及操作系統的 [Rime輸入法](https://rime.im/download) 程序後，請按照以下說明，配置國際音標輸入法。
+安裝適合您的設備及操作系統的 [Rime輸入法](https://rime.im/download) 程序後，請按照以下說明，配置POJ輸入法。
 
 
 ### 手動安裝及配置
@@ -17,14 +17,14 @@
 
 2.  打開Rime輸入法 [用戶文件夾](https://github.com/rime/home/wiki/UserData)，將下載的YAML文件移到此處。
 
-3.  啓用國際音標輸入方案。
+3.  啓用POJ輸入方案。
 
     在用戶文件夾創建或編輯文件 `default.custom.yaml`，將所需輸入方案的ID加入「輸入方案列表」配置選項：
 
     ```yaml
     patch:            # 若文件中已有該行，無須重複
       schema_list/+:  # 同上；"/+" 表示加添輸入方案，若無 "/+" 則表示以下列方案替換預設列表
-        - schema: ipa_xsampa   # 依需選配
+        - schema: poj   # 依需選配
     ```
 
 4.  完成以上步驟之後，[重新deploy](https://github.com/rime/home/wiki/CustomizationGuide#%E9%87%8D%E6%96%B0%E4%BD%88%E7%BD%B2%E7%9A%84%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95)Rime輸入法的工作資料，使上述配置改動生效。
